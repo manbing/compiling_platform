@@ -1,0 +1,4 @@
+EXTRA_CFLAGS ?=
+
+obj-m := check_context.o
+check_context-objs := main.o
